@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular"),
+  url("./assets/fonts/Poppins-Regular.ttf") format("trueType");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: local("Poppins-Light"),
+  url("./assets/fonts/Poppins-Light.ttf") format("trueType");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: local("Poppins-ExtraLight"),
+  url("./assets/fonts/Poppins-ExtraLight.ttf") format("trueType");
+  font-weight: bold;
+}
+
+* {
+  font-family: Poppins-Regular, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+img {
+  max-width: 100%;
+}
+
+svg:hover {
+  path, rect{
+    fill: #858486;
+  }
+}
+

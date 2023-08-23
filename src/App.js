@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import {Container} from "react-bootstrap";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects";
+import Services from "./pages/Services/Services";
+import Contacts from "./components/Footer/Footer";
+import {Route} from "react-router-dom";
+import {Routes} from "react-router";
+import VilkiPalki from "./pages/SeparateProject/SeparateProject";
+import emailjs from "@emailjs/browser";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    emailjs.init('YOUR_PUBLIC_KEY');
+    return (
+        <Routes>
+            <Route path="/" element={
+                <Container>
+                    <Home/>
+                    <About/>
+                    <Projects/>
+                    <Services/>
+                    <Contacts/>
+                </Container>
+                }/>
+            <Route path="/projects/:projectName" element={<VilkiPalki/>}/>
+        </Routes>
+    );
 }
+
 
 export default App;

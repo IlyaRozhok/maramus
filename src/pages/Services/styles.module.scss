@@ -1,0 +1,19 @@
+@import "../../variables.module";
+
+.wrapper {
+  padding: 200px 75px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+@media (max-width: $MOBILE-LARGE) {
+  .wrapper {
+    padding: 30px 25px;
+    margin: 60px 0 0 0;
+  }
+  .more {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,90 @@
+@import '../../variables.module';
+.wrapper {
+  position: relative;
+  height: 100vh;
+  padding: 50px 75px;
+  &Header {
+    padding-left: 10px;
+  }
+}
+
+
+.title {
+  max-width: 65%;
+}
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.rightSideContentWrapper {
+  max-width: 60%;
+  margin-top: 20px;
+
+}
+.description {
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.team {
+  margin-top: 30px;
+  &Member {
+    display: flex;
+    align-items: end;
+    &Name {
+      font-size: 16px;
+      font-family: "Poppins-Light", sans-serif;
+
+    }
+  }
+  &Position {
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 7px;
+  }
+}
+.gallery {
+  margin-top: 50px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  &PhotoWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &Img {
+    margin: 15px;
+    width: 90%;
+  }
+}
+
+
+@media (max-width: $LAPTOP-LARGE-GALLERY) {
+  .galleryPhotoWrapper {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: $LAPTOP-PROJECT-TEAM) {
+  .teamMemberName {
+    font-size: 13px;
+  }
+  .teamPosition {
+    font-size: 16px;
+  }
+ }
+
+@media (max-width: $LAPTOP) {
+  .contentWrapper {
+    display: block;
+  }
+  .rightSideContentWrapper {
+    max-width: 100%;
+  }
+  .title {
+    max-width: 100%;
+  }
+}

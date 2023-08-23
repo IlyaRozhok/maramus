@@ -1,0 +1,53 @@
+@import "src/variables.module";
+
+
+.wrapper {
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.projectContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectDescription {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Poppins-Light", sans-serif;
+  margin-bottom: 15px;
+}
+.projectTeam {
+  display: block;
+  font-size: 24px;
+  line-height: 36px;
+  width: 315px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+.descriptionContainer {
+  max-width: $WIDTH-PROJECT-IMG;
+  max-height: $HEIGHT-PROJECT-IMG;
+  width: 70%;
+}
+.projectNameContainer {
+  line-height: 1.313rem;
+}
+.title {
+  text-transform: uppercase;
+  font-size: $FZ-TITLE;
+  width: 410px;
+  line-height: 30px;
+  font-family: "Poppins-Light", sans-serif;
+}
+.linkRow {
+  display: flex;
+  justify-content: space-between;
+  img {
+    margin-top: 10px;
+  }
+}
+

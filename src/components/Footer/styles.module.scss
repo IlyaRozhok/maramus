@@ -1,0 +1,104 @@
+@import "../../variables.module";
+
+.wrapper {
+  padding: 200px 75px 50px 75px;
+}
+
+.text {
+  font-size: $FZ-CONTACTS-TEXT;
+  line-height: $FZ-CONTACTS-TEXT;
+  text-align: center;
+}
+
+.contactsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.upArrowContainer {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.smContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.smDescription {
+  margin-top: 7px;
+}
+
+.smLink {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  margin: 7px 0;
+  &:hover {
+    &:after {
+      position: absolute;
+      width: 100%;
+      content: '';
+      display: block;
+      height: 1px;
+      background-color: black;
+    }
+  }
+}
+
+.footerContactsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+@media (max-width: $LAPTOP-LARGE) {
+  .text {
+    font-size: 140px;
+  }
+}
+
+@media (max-width: $LAPTOP-FOOTER) {
+  .text {
+    font-size: 120px;
+  }
+}
+@media (max-width: $TABLET-FOOTER) {
+  .text {
+    font-size: 80px;
+  }
+}
+@media (max-width: $TABLET-SMALL-TABLET) {
+  .text {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: $MOBILE-LARGE) {
+  .wrapper {
+    padding: 30px 25px;
+  }
+  .textWrapper {
+    display: block;
+  }
+  .text {
+    line-height: 50px;
+  }
+  .contactsContainer {
+    display: block;
+  }
+  .smContainer {
+    align-items: center;
+  }
+  .upArrowContainer {
+    display: block;
+    margin-top: 130px;
+  }
+  .footerContactsContainer {
+    align-items: center;
+  }
+}

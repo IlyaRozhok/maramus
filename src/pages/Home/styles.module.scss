@@ -1,0 +1,30 @@
+@import "../../variables.module";
+
+.wrapper {
+  position: relative;
+  height: 100vh;
+  background: url("../../assets/img/homePage.svg") no-repeat scroll;
+  background-size: cover;
+  padding: 50px 75px;
+}
+
+.btnWrapper {
+  position: absolute;
+  bottom: 150px;
+}
+
+@media (max-width: $MOBILE-LARGE) {
+  .wrapper {
+    padding: 30px 25px;
+  }
+  .btnWrapper {
+    width: 92%;
+    button {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 92%;
+    }
+  }
+
+}

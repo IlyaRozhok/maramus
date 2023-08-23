@@ -1,0 +1,66 @@
+@import "src/variables.module";
+
+.wrapper {
+  position: relative;
+  padding: 64px 0 64px 42px;
+  font-size: $FZ-TITLE;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: height 3s ease-out;
+  z-index: 100;
+}
+
+
+details summary {
+  cursor: pointer;
+  transition: margin 0.5s ease-out;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &Wrapper {
+    font-family: "Poppins-Light", sans-serif;
+  }
+}
+
+details[open] summary {
+  margin-bottom: 50px;
+}
+
+.title {
+  max-width: 40%;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+}
+
+.plus {
+  cursor: pointer;
+  &:hover {
+    transform: rotate(45deg);
+    transition: .8s all;
+  }
+}
+
+.plusImg:hover {
+  filter: brightness(0.5);
+}
+
+.serviceWrapper {
+  display: flex;
+  position: relative;
+  &Left, &Right {
+    width: 50%;
+  }
+  &Right {
+    padding: 0 6%;
+  }
+}
+
+.paragraph {
+  font-family: "Poppins-ExtraLight", sans-serif !important;
+}
+

@@ -1,0 +1,25 @@
+@import "src/variables.module";
+
+.wrapper {
+  width: $BTN_WIDTH;
+  height: $BTN_HEIGHT;
+  color: black;
+  border: none;
+  padding: 8px;
+  letter-spacing: $LETTER-SPACING-BUTTON;
+  font-size: $FZ-BODY-REGULAR;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+  }
+  &Send {
+    &:hover {
+      background-color: white !important;
+      color: black !important;
+      border: 0.5px black solid;
+    }
+  }
+}
