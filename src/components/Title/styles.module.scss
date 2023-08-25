@@ -5,3 +5,10 @@
   font-size: $FZ-PAGE-TITLE;
   font-weight: bold;
 }
+
+@media (max-width: $MOBILE-LARGE) {
+  .title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
