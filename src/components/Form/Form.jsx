@@ -69,14 +69,15 @@ const Form = ({isOpen, closeHandler}) => {
                                    placeholder='E-mail'
                                    type="email"/>
                             <div className={styles.send}>
+                                <Button
+                                    clickHandler={() => console.log('Sending to email...')}
+                                    typeBtn={'submit'}
+                                    isSend={true}
+                                    className={styles.send}
+                                    isDisabled={!isOpen}
+                                    text='SEND'/>
                             </div>
-                            <Button
-                                clickHandler={() => console.log('Sending to email...')}
-                                typeBtn={'submit'}
-                                isSend={true}
-                                className={styles.send}
-                                isDisabled={!isOpen}
-                                text='SEND'/>
+
                         </form>
                     </div>
                 </div>

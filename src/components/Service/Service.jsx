@@ -1,10 +1,22 @@
 import styles from './styles.module.scss';
-import React from 'react';
+import React, {useState} from 'react';
 import plus from '../../assets/img/plus.svg';
 import bg from '../../assets/img/serviceBg.png';
+import useWindowSize from "../../hooks/windowSize";
 
 
 const Service = ({title}) => {
+
+    const [rotate, setRotate] = useState({'transform': 'rotate(0deg)'})
+    const rotateHandler = () => {
+        if (rotate.transform.includes('0')) {
+            setRotate({'transform': 'rotate(45deg)'})
+        }
+        if (rotate.transform.includes('45')) {
+            setRotate({'transform': 'rotate(0deg)'})
+        }
+    }
+    const windowSize = useWindowSize();
 
     return (
         <details className={styles.wrapper}>
@@ -12,7 +24,7 @@ const Service = ({title}) => {
                 <div className={styles.summaryWrapper}>
                     {title.split('.').map((item) => <>{item}<br/></>)}
                 </div>
-                <div className={styles.plus}>
+                <div style={rotate} onClick={rotateHandler} className={styles.plus}>
                     <img className={styles.plusImg} src={plus} alt="plus-img"/>
                 </div>
             </summary>
@@ -35,7 +47,7 @@ const Service = ({title}) => {
                     <p className={styles.paragraph}>-Plumbing equipment marking plan</p>
                     <p className={styles.paragraph}>-Floor coverings plan</p>
                     <p className={styles.paragraph}>-Wall finishing plan</p>
-                    <br/>
+                    {windowSize.width > 769 && <br/>}
                     <p className={styles.paragraph}>-Wall layouts with individual solutions</p>
                     <p className={styles.paragraph}>-Creating the concept of interior design, moodboard</p>
                     <p className={styles.paragraph}>-3d visualizations (2 adjustments)</p>

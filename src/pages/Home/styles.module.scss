@@ -16,14 +16,15 @@
 @media (max-width: $MOBILE-LARGE) {
   .wrapper {
     padding: 30px 25px;
+    background-position: center;
   }
   .btnWrapper {
-    width: 92%;
+    position: absolute;
+    width: calc(100% - 50px);
+
     button {
       position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 92%;
+      width: 100%;
     }
   }
 

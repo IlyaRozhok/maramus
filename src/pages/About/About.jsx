@@ -9,7 +9,9 @@ const About = () => {
             <section id='about'>
                 <div className={styles.wrapper}>
                     <div className={styles.textWrapper}>
-                        <div className={styles.about}><Title value='About'/></div>
+                        <div className={styles.about}>
+                            <Title value='About'/></div>
+                        <div className={styles.textBlockWrapper}>
                             <div className={styles.textBlock}>
                                 We create spaces for different purposes. Commercial and private interiors. Working with us is always
                                 a wonderful synergy. Our philosophy is to shape your space not just into something stylish and
@@ -19,6 +21,7 @@ const About = () => {
                                 Our community has existed since 2020. A team of designers and architects who are always growing and
                                 improving their visual world with new experiences.
                             </div>
+                        </div>
                     </div>
                     <div className={styles.imgWrapper}>
                         <img src={aboutPng} alt="about-png"/>

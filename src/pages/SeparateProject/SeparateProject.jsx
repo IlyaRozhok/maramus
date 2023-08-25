@@ -25,7 +25,7 @@ const SeparateProject = () => {
                 <Header isSeparateProject={true}/>
             </div>
             <div className={styles.title}>
-                <Title value={currentProject.name}/>
+                <Title value={currentProject?.projectData?.name}/>
             </div>
             <hr/>
             <div className={styles.contentWrapper}>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styles from './styles.module.scss';
 import './burger.css';
 import {Link} from 'react-scroll';
@@ -24,7 +24,6 @@ const Header = ({isSeparateProject}) => {
         return yScroll;
     }
 
-
     const windowSize = useWindowSize();
     const clickHandler = (event) => {
             targetOffset = document.getElementById(event.target.hash?.substr(1)).offsetTop;
@@ -44,10 +43,6 @@ const Header = ({isSeparateProject}) => {
             event.preventDefault();
 
     }
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
 
     return (
         <div className={styles.wrapper}>
@@ -56,7 +51,7 @@ const Header = ({isSeparateProject}) => {
                     <img src={arrowBack} alt="back"/>
                 </NavLink>
             }
-            <div className={styles.logo}>
+            <div className={!isSeparateProject ? styles.logo : styles.logoMob}>
                 MARAMARUS DESIGN
             </div>
 
@@ -119,7 +114,7 @@ const Header = ({isSeparateProject}) => {
                         </li>
                     </ul>
                 }
-                {windowSize.width < 769 &&
+                {windowSize.width < 769 && !isSeparateProject &&
                     <div className="a-header">
                         <input type="checkbox" name="main-nav" id="main-nav" className="burger-check"/>
                         <label htmlFor="main-nav" className="burger menu"><span></span></label>
@@ -160,18 +155,18 @@ const Header = ({isSeparateProject}) => {
                                     Services
                                 </Link>
                             </li>
-                        <li className={styles.menuItem}>
-                            <Link
-                                className={styles.menuItemLinkLast}
-                                activeClass="active"
-                                to="contacts"
-                                spy={true}
-                                smooth={true}
-                                offset={50}
-                                duration={500}>
-                                Contacts
-                            </Link>
-                        </li>
+                            <li className={styles.menuItem}>
+                                <Link
+                                    className={styles.menuItemLinkLast}
+                                    activeClass="active"
+                                    to="contacts"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}>
+                                    Contacts
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 }

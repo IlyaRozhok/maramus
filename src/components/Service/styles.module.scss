@@ -30,6 +30,13 @@ details[open] summary {
   margin-bottom: 50px;
 }
 
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 .title {
   max-width: 40%;
   position: absolute;
@@ -39,7 +46,7 @@ details[open] summary {
 
 .plus {
   cursor: pointer;
-  &:hover {
+  &:hover, &:active, &:focus {
     transform: rotate(45deg);
     transition: .8s all;
   }
@@ -64,3 +71,20 @@ details[open] summary {
   font-family: "Poppins-ExtraLight", sans-serif !important;
 }
 
+
+@media (max-width: $MOBILE-LARGE) {
+  details[open] summary {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    padding: 20px 0;
+    font-size: 17px;
+  }
+  .serviceWrapper {
+    display: block;
+    &Left, &Right {
+      width: 100%;
+      padding: 0;
+    }
+  }
+}

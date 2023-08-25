@@ -1,7 +1,7 @@
 import styles from './styles.module.scss';
 import React from 'react';
 import Scroll from "react-scroll";
-
+import getInTouch from '../../assets/img/getInTouch.png';
 
 const Footer = () => {
     const scrollUp = (options) => {
@@ -12,11 +12,11 @@ const Footer = () => {
     return (
         <section id='contacts'>
             <div className={styles.wrapper}>
-                <div className={styles.text}>GET IN TOUCH</div>
+                <div className={styles.getInTouch}><img src={getInTouch} alt="getintouch"/></div>
                 <div className={styles.contactsContainer}>
                     <div className={styles.smContainer}>
                         <a className={styles.smLink} target="_blank" href="https://www.instagram.com/maramarus/">Instagram</a>
-                        <a className={styles.smLink} href="src/components/Footer/Footer#">Facebook</a>
+                        <a className={styles.smLink} target="_blank" href="facebook.com/profile.php/?id=100008135797089&locale=ms_MY">Facebook</a>
                         <a className={styles.smLink} target="_blank" href="https://www.behance.net/maramarusdesign">Behance</a>
                     </div>
                     <div onClick={(options) => scrollUp('myScrollToElement', {

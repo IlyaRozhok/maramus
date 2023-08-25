@@ -4,10 +4,11 @@
   padding: 200px 75px 50px 75px;
 }
 
-.text {
-  font-size: $FZ-CONTACTS-TEXT;
-  line-height: $FZ-CONTACTS-TEXT;
-  text-align: center;
+.getInTouch {
+  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 .contactsContainer {
@@ -74,7 +75,7 @@
 }
 @media (max-width: $TABLET-SMALL-TABLET) {
   .text {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 

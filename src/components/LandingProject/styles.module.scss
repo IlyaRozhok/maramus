@@ -46,8 +46,30 @@
 .linkRow {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   img {
     margin-top: 10px;
   }
 }
+
+
+@media (max-width: $MOBILE-LARGE) {
+  .wrapper {
+    padding: 20px 0;
+    font-size: 18px;
+    margin-bottom: 0;
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .projectTeam {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .projectNameContainer {
+    font-size: 13px;
+  }
+}
+
 

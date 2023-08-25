@@ -88,3 +88,17 @@
     max-width: 100%;
   }
 }
+
+
+@media (max-width: $MOBILE-LARGE) {
+  .title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .wrapper {
+    padding: 30px;
+  }
+  .teamMember {
+    align-items: baseline;
+  }
+}
