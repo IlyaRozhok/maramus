@@ -97,8 +97,10 @@
   }
   .menuItemLink {
     margin: 0 5px;
+    font-family: Poppins-Light, sans-serif;
     &Last {
       margin-left: 8px;
+      font-family: Poppins-Light, sans-serif;
     }
   }
 }
@@ -115,5 +117,17 @@
     font-size: 17px;
     letter-spacing: 0.3rem;
     width: 100%;
+  }
+}
+
+@media (max-width: 370px) {
+  .logo, .logoMob {
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+    width: 100%;
+  }
+  .menuItem {
+    font-size: 20px;
+    margin-top: -10px;
   }
 }

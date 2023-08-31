@@ -52,6 +52,11 @@
   }
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
 
 @media (max-width: $MOBILE-LARGE) {
   .wrapper {
@@ -66,9 +71,17 @@
   .projectTeam {
     font-size: 18px;
     line-height: 22px;
+    margin-bottom: 5px;
   }
   .projectNameContainer {
     font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .projectContainer {
+    flex-direction: column;
+  }
+  .descriptionContainer {
+    width: 100%;
   }
 }
 

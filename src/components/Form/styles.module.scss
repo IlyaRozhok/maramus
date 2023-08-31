@@ -43,6 +43,14 @@
   font-size: 2.8rem;
   width: 80%;
   margin-bottom: 70px;
+  &Mob {
+    color: black;
+    font-family: Poppins-Light, sans-serif;
+    font-size: 2rem;
+    width: 80%;
+    position: absolute;
+    top: 250px;
+  }
 }
 
 .cross {
@@ -133,9 +141,34 @@
     height: 80%;
   }
   .send {
-    margin-top: 20px;
+    margin-top: 45px;
+    position: absolute;
+    width: calc(100% - 80px);
   }
   .logo {
     letter-spacing: 0.5rem;
   }
+}
+
+
+@media (max-width: 410px) {
+  .leftSideWrapper, .rightSideWrapper {
+    padding: 20px;
+    width: 100%;
+    height: 80%;
+  }
+  .logo {
+    font-size: 18px;
+    letter-spacing: 0.3rem;
+  }
+  .cross {
+    top: 25px;
+  }
+  .input {
+    width: 200%;
+  }
+  .send {
+    width: calc(100% - 40px);
+  }
+
 }

@@ -129,7 +129,6 @@ span.boo {
   border-bottom-color: #08c;
 }
 
-/* Animate height of 'a' element in order to reveal the menu on check (IE9 or higher) */
 #main-nav:checked ~ ul a {
   height: 50px;
 }
@@ -137,6 +136,36 @@ span.boo {
 @media (max-width: 769px) {
   .a-header {
     transform: translateY(-38px);
+  }
+}
+@media (max-width: 370px) {
+  .burger {
+    width: 35px;
+  }
+  .a-header {
+    transform: translateY(-35px);
+  }
+  .a-header ul a {
+    padding: 0 10px;
+  }
+  .burger span,
+  .burger span:before,
+  .burger span:after {
+    width: 15px;
+    height: 2px;
+  }
+  .burger span:before {
+    top: -8px;
+    width: 25px;
+  }
+
+  .burger span:after {
+    top: 8px;
+    width: 25px;
+  }
+  #main-nav:checked ~ ul a {
+    height: 40px;
+    line-height: 30px;
   }
 }
 

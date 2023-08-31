@@ -4,7 +4,7 @@ import photo from '../../assets/img/formPhoto.png';
 import {Button} from "../Button/Button";
 import cross from '../../assets/img/cross.svg';
 import emailjs from "@emailjs/browser";
-import Layout from "../Layout/Layout";
+import useWindowSize from "../../hooks/windowSize";
 
 const Form = ({isOpen, closeHandler}) => {
 
@@ -28,6 +28,7 @@ const Form = ({isOpen, closeHandler}) => {
     }
 
 
+    const windowSize = useWindowSize();
     return (
         <>
             {isOpen &&
@@ -37,9 +38,15 @@ const Form = ({isOpen, closeHandler}) => {
                         <h5 className={styles.logo}>MARMARUS DESIGN</h5>
                     </div>
                     <div className={styles.rightSideWrapper}>
-                        <p className={styles.formTitle}>
-                            LET’S DISCUSS YOUR PROJECTS!
-                        </p>
+                        {windowSize.width > 768 ?
+                            <p className={styles.formTitle}>
+                                LET’S DISCUSS YOUR PROJECTS!
+                            </p>
+                            :
+                            <p className={styles.formTitleMob}>
+                                LET’S DISCUSS YOUR PROJECTS!
+                            </p>
+                        }
                         <form
                             onSubmit={submitHandler}
                             className={styles.form}
@@ -75,7 +82,7 @@ const Form = ({isOpen, closeHandler}) => {
                                     isSend={true}
                                     className={styles.send}
                                     isDisabled={!isOpen}
-                                    text='SEND'/>
+                                    text='GET ORDER'/>
                             </div>
 
                         </form>
