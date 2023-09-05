@@ -6,8 +6,7 @@ import aboutPng from '../../assets/img/about.png'
 const About = () => {
     return (
         <>
-            <section id='about'>
-                <div className={styles.wrapper}>
+            <section id='about' className={styles.wrapper}>
                     <div className={styles.textWrapper}>
                         <div className={styles.about}>
                             <Title value='About'/></div>
@@ -18,7 +17,7 @@ const About = () => {
                                 functional, but to give it character and emphasize its history.
                             </div>
                             <div className={styles.textBlock}>
-                                Our community has existed since 2020. A team of designers and architects who are always growing and
+                                Our community exists since 2020. A team of designers and architects who are always growing and
                                 improving their visual world with new experiences.
                             </div>
                         </div>
@@ -26,7 +25,6 @@ const About = () => {
                     <div className={styles.imgWrapper}>
                         <img src={aboutPng} alt="about-png"/>
                     </div>
-                </div>
             </section>
         </>
     );

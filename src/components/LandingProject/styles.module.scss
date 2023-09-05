@@ -46,10 +46,13 @@
 .linkRow {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   img {
     margin-top: 10px;
   }
+}
+.arrowLink {
+  transform: translateY(8px);
 }
 
 .flex {

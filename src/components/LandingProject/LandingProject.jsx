@@ -36,17 +36,15 @@ const LandingProject = ({param, name, square, screen}) => {
                         {windowSize.width > 768 ?
                             <div>
                                 <div className={styles.projectTeam}>{name}</div>
-                                <>HI</>
-
                             </div> :
                             <div className={styles.projectNameContainer}>
                                 <div>{square}</div>
                             </div>
                         }
                         {windowSize.width > 768 &&
-                            <Link to={`projects/${param}`}>
+                            <Link className={styles.arrowLink} to={`projects/${param}`}>
                                 {
-                                    <svg className={styles.arrowLink} width="32" height="32" viewBox="0 0 32 32"
+                                    <svg width="32" height="32" viewBox="0 0 32 32"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <rect x="7" y="7" width="18" height="2"/>
                                         <path d="M23 25L23 7H25L25 25L23 25Z"/>

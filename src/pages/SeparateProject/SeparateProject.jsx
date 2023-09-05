@@ -20,7 +20,7 @@ const SeparateProject = () => {
 
 
     return (
-        <div className={styles.wrapper}>
+        <section className={styles.wrapper}>
             <div className={styles.wrapperHeader}>
                 <Header isSeparateProject={true}/>
             </div>
@@ -63,7 +63,7 @@ const SeparateProject = () => {
                 </div>
             </div>
             <Footer/>
-        </div>
+        </section>
     );
 };
 

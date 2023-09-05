@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
         <>
-            <div className={styles.wrapper}>
+            <section className={styles.wrapper}>
                 <Header/>
                 <div className={styles.btnWrapper}>
                     <Button
@@ -21,7 +21,7 @@ const Home = () => {
                         text='GET ORDER'/>
                 </div>
 
-            </div>
+            </section>
             {isOpen && <Layout isOpen={isOpen} onClose={closeHandler}/>}
             {isOpen && <Form isOpen={isOpen} closeHandler={closeHandler}/>}
         </>

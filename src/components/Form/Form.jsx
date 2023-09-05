@@ -35,16 +35,16 @@ const Form = ({isOpen, closeHandler}) => {
                 <div id={'contact-form'} className={styles.wrapper}>
                     <div style={{background: `url(${photo})`, backgroundSize: "cover"}}
                          className={styles.leftSideWrapper}>
-                        <h5 className={styles.logo}>MARMARUS DESIGN</h5>
+                        <h5 className={styles.logo}>MARAMARUS DESIGN</h5>
                     </div>
                     <div className={styles.rightSideWrapper}>
                         {windowSize.width > 768 ?
                             <p className={styles.formTitle}>
-                                LET’S DISCUSS YOUR PROJECTS!
+                                LET’S DISCUSS YOUR PROJECT!
                             </p>
                             :
                             <p className={styles.formTitleMob}>
-                                LET’S DISCUSS YOUR PROJECTS!
+                                LET’S DISCUSS YOUR PROJECT!
                             </p>
                         }
                         <form
@@ -82,7 +82,7 @@ const Form = ({isOpen, closeHandler}) => {
                                     isSend={true}
                                     className={styles.send}
                                     isDisabled={!isOpen}
-                                    text='GET ORDER'/>
+                                    text='SUBMIT'/>
                             </div>
 
                         </form>

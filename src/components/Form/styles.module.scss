@@ -49,7 +49,7 @@
     font-size: 2rem;
     width: 80%;
     position: absolute;
-    top: 250px;
+    top: 220px;
   }
 }
 
@@ -169,6 +169,10 @@
   }
   .send {
     width: calc(100% - 40px);
+  }
+  .cross {
+    max-width: 15px;
+    max-height: 15px;
   }
 
 }

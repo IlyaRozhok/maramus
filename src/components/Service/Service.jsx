@@ -47,8 +47,8 @@ const Service = ({title}) => {
                     <p className={styles.paragraph}>-Plumbing equipment marking plan</p>
                     <p className={styles.paragraph}>-Floor coverings plan</p>
                     <p className={styles.paragraph}>-Wall finishing plan</p>
-                    {windowSize.width > 769 && <br/>}
                     <p className={styles.paragraph}>-Wall layouts with individual solutions</p>
+                    <br/>
                     <p className={styles.paragraph}>-Creating the concept of interior design, moodboard</p>
                     <p className={styles.paragraph}>-3d visualizations (2 adjustments)</p>
 

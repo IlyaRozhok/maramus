@@ -1,7 +1,7 @@
 import styles from './styles.module.scss';
 import React from 'react';
 import Scroll from "react-scroll";
-import getInTouch from '../../assets/img/getInTouch.png';
+import getInTouch from '../../assets/img/getInTouch.svg';
 
 const Footer = () => {
     const scrollUp = (options) => {
