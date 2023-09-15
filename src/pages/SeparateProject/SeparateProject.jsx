@@ -18,7 +18,6 @@ const SeparateProject = () => {
         setCurrentProject(project);
     }, [projectName])
 
-
     return (
         <section className={styles.wrapper}>
             <div className={styles.wrapperHeader}>
@@ -50,12 +49,17 @@ const SeparateProject = () => {
                     </div>
                     <div className={styles.gallery}>
                         {
+                            // eslint-disable-next-line array-callback-return
                             gallery?.map((item, index) => {
-                                return (
-                                    <div className={styles.galleryPhotoWrapper} key={index}>
-                                        <img className={styles.galleryImg} src={currentProject?.projectGallery[`${item}`]} alt="img"/>
-                                    </div>
-                                );
+                                if (item !== 'firstScreen') {
+                                    return (
+                                        <div className={styles.galleryPhotoWrapper} key={index}>
+                                            <img className={styles.galleryImg}
+                                                 src={currentProject?.projectGallery[`${item}`]} alt="img"
+                                            />
+                                        </div>
+                                    );
+                                }
                             })
                         }
 

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20e3a6b2-7bb2-40bc-92f8-aabe93dfd2ac" name="Changes" comment="build 2.3&#10;Fixed mobile">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/apartment21/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/apartment21/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/apartment21/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/apartment21/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/apartment21/21apart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vilki/vilki-firstscreen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Swiper/Swiper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Swiper/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/arrow-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/terra-firstscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vilki-firstscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingProject/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingProject/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Service/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Service/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/galleries/apartment-twenty-one.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/galleries/apartment-twenty-one.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/galleries/soft-grey-gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/galleries/soft-grey-gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/galleries/terra-gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/galleries/terra-gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/galleries/vilki-palki-gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/galleries/vilki-palki-gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SeparateProject/SeparateProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SeparateProject/SeparateProject.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SeparateProject/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SeparateProject/styles.module.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UNj0qzQCLyaMRq3pvVjRPYBPHI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img/apartment21" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/assets/img/vilki" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20e3a6b2-7bb2-40bc-92f8-aabe93dfd2ac" name="Changes" comment="" />
+      <created>1692786714673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692786714673</updated>
+      <workItem from="1692786719229" duration="4187000" />
+      <workItem from="1692941651170" duration="5044000" />
+      <workItem from="1692948496340" duration="290000" />
+      <workItem from="1693466111083" duration="5704000" />
+      <workItem from="1693642757887" duration="614000" />
+      <workItem from="1693899526367" duration="1754000" />
+      <workItem from="1693902821273" duration="902000" />
+      <workItem from="1694008324606" duration="1702000" />
+      <workItem from="1694374863361" duration="2585000" />
+      <workItem from="1694411261375" duration="65000" />
+      <workItem from="1694762119519" duration="2632000" />
+    </task>
+    <task id="LOCAL-00001" summary="build 1.2&#10;Fixed bugs&#10;Remains: add mob slider">
+      <created>1692946545681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692946545681</updated>
+    </task>
+    <task id="LOCAL-00002" summary="build 1.2&#10;Fixed bugs&#10;Remains: add mob slider">
+      <created>1692947956734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692947956734</updated>
+    </task>
+    <task id="LOCAL-00003" summary="build 2.0&#10;Fixed bugs&#10;Remains: slider">
+      <created>1692948001742</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948001742</updated>
+    </task>
+    <task id="LOCAL-00004" summary="build 2.1&#10;Fixed title responsiveness&#10;Remains: slider">
+      <created>1692948453253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948453253</updated>
+    </task>
+    <task id="LOCAL-00005" summary="build 2.2&#10;Fixed mobile">
+      <created>1693480802487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693480802487</updated>
+    </task>
+    <task id="LOCAL-00006" summary="build 2.3&#10;Fixed mobile">
+      <created>1693901228173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693901228173</updated>
+    </task>
+    <task id="LOCAL-00007" summary="build 2.3&#10;Fixed mobile">
+      <created>1693901253617</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693901253617</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="build 1.1" />
+    <MESSAGE value="build 1.2&#10;Fixed bugs&#10;Remains: add mob slider" />
+    <MESSAGE value="build 2.0&#10;Fixed bugs&#10;Remains: slider" />
+    <MESSAGE value="build 2.1&#10;Fixed title responsiveness&#10;Remains: slider" />
+    <MESSAGE value="build 2.2&#10;Fixed mobile" />
+    <MESSAGE value="build 2.3&#10;Fixed mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="build 2.3&#10;Fixed mobile" />
+  </component>
+</project>

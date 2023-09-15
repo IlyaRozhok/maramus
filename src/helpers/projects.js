@@ -1,5 +1,3 @@
-import terraFirstscreen from "../assets/img/terra-firstscreen.png";
-import vilkiPalkiScreen from "../assets/img/vilki-firstscreen.png";
 import {terraGallery} from "./galleries/terra-gallery";
 import {vilkiPalkiGallery} from "./galleries/vilki-palki-gallery";
 import {apartmentTwentyOneGallery} from "./galleries/apartment-twenty-one";
@@ -31,7 +29,7 @@ export const vilkiPalkiProjectData = {
     name: 'Vilkipalki Project | Online Restaurant & Office Space',
     description: 'Office for an international company in the center of the capital of Ukraine at Business Center Magnet We created a unique space - ergonomic office, designed to the smallest details. Acoustic panels on the ceiling provide a high level of sound isolation across the entire office. The interior is filled with thoughtful details, interesting shapes and delicious combinations of colors. There are no fixed workplaces in the open space area. There is a relaxing area with swings, surrounded by palm trees with the view on Kyiv. The kitchen has a garbage sorting system.',
     param: PROJECTS.VILKI_PALKI,
-    img: vilkiPalkiGallery.firstScreen,
+    img: vilkiPalkiGallery.albumImg,
     square: '45 m²,  Odesa, (UA), 2023.',
     team: {
         Designers: 'Maryna Tymofieieva, Denys Zavadskyy',

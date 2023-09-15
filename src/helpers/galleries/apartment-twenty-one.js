@@ -1,7 +1,7 @@
-import firstScreen from '../../assets/img/apartmentTwentyOneFirst.png';
-import apart1 from '../../assets/img/apartmentTwentyOne-1.png';
-import apart2 from '../../assets/img/apartmentTwentyOne-2.png';
-import apart3 from '../../assets/img/apartmentTwentyOne-3.png';
+import firstScreen from '../../assets/img/apartment21/1.jpg';
+import apart1 from '../../assets/img/apartment21/02.jpg';
+import apart2 from '../../assets/img/apartment21/03.jpg';
+import apart3 from '../../assets/img/apartment21/04.jpg';
 
 export const apartmentTwentyOneGallery = {
     firstScreen,

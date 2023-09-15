@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 import './burger.css';
 import {Link} from 'react-scroll';
 import {NavLink} from "react-router-dom";
-import arrowBack from '../../assets/img/arrow-back.png'
+import arrowBack from '../../assets/img/arrow-back.svg'
 import useWindowSize from "../../hooks/windowSize";
 
 
